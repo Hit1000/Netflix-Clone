@@ -18,3 +18,5 @@ firebase-config.js
         appId: "",
         measurementId: ""
     };
+    const app = initializeApp(firebaseConfig);
+    export const firebaseAuth = getAuth(app);

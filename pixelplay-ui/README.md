@@ -2,10 +2,12 @@ make a utils folder in src
 and make file of names :- 
 
 constant.js
+```
     export const API_KEY = "YOUR_API_KEY";
     export const TMDB_BASE_URL = "https://api.themoviedb.org/3";
-
+```
 firebase-config.js
+    ```
     import { initializeApp } from "firebase/app";
     import { getAuth } from 'firebase/auth'
 
@@ -20,3 +22,4 @@ firebase-config.js
     };
     const app = initializeApp(firebaseConfig);
     export const firebaseAuth = getAuth(app);
+    ```

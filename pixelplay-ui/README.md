@@ -7,8 +7,8 @@ constant.js
     export const TMDB_BASE_URL = "https://api.themoviedb.org/3";
 ```
 firebase-config.js
-    ```
-    import { initializeApp } from "firebase/app";
+```
+    import { initializeApp } from "firebase/app"
     import { getAuth } from 'firebase/auth'
 
     const firebaseConfig = {
@@ -22,4 +22,4 @@ firebase-config.js
     };
     const app = initializeApp(firebaseConfig);
     export const firebaseAuth = getAuth(app);
-    ```
+```
